@@ -1,0 +1,29 @@
+﻿<Window x:Class="Loginwpfk020.VentanaPrincipal"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Loginwpfk020"
+        mc:Ignorable="d"
+        Title="VentanaPrincipal" Height="450" Width="800">
+    <WrapPanel>
+        <Button Width="200" Height="200">
+            <Image Width="180" Height="180" Source="/IEULOGO.png"></Image>
+        </Button>
+        <Button Width="200" Height="200">
+            <Image Width="180" Height="180" Source="C:\Users\cid\source\repos\Loginwpfk020\Imagenes\zelda.png"></Image>
+        </Button>
+        <Button Width="200" Height="200">
+            <Image Width="180" Height="180" Source="C:\Users\cid\source\repos\Loginwpfk020\Imagenes\ciencia.png"></Image>
+        </Button>
+        <Button Width="200" Height="200">
+            <Image Width="180" Height="180" Source="C:\Users\cid\source\repos\Loginwpfk020\Imagenes\potter.png"></Image>
+        </Button>
+        <Button Width="200" Height="200">
+            <Image Width="180" Height="180" Source="C:\Users\cid\source\repos\Loginwpfk020\Imagenes\rubik.png"></Image>
+        </Button>
+        <Button Width="200" Height="200">
+            <Image Width="180" Height="180" Source="C:\Users\cid\source\repos\Loginwpfk020\Imagenes\Switch.png"></Image>
+        </Button>
+    </WrapPanel>
+</Window>

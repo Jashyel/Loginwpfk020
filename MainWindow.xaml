@@ -1,0 +1,19 @@
+﻿<Window x:Class="Loginwpfk020.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Loginwpfk020"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel Orientation="Vertical" Width="400" Background="Lightgray">
+        <Label Name="etiqueta1" Margin="10 50 10 0" FontSize="20"> Username: </Label>
+        <TextBox Name="usernameTextbox" VerticalAlignment="center"  Margin="10" FontSize="20" Text="Email" AcceptsReturn="False"></TextBox>
+        <Label Margin="10" FontSize="20">Password</Label>
+        <PasswordBox Name="passwordTextBox" VerticalAlignment="center" Margin="10" FontSize="20"> </PasswordBox>
+        <Button Name="loginButton" Click="loginButton_Click" FontSize="20" FontWeight="Bold" Background="Navy" 
+                Foreground="White" Width="200" >Entrar</Button>
+        <Label Name="salidaLabel"  FontSize="24" ></Label>
+        <RichTextBox Margin="20" FontSize="20" Visibility="Hidden"></RichTextBox>
+    </StackPanel>
+</Window>
